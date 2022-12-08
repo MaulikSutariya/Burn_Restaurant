@@ -1,0 +1,1095 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+#nav-writing{
+    text-align: center;
+    font-size: 12px;
+}
+#navlinks{
+    margin: 0 auto;
+    width: 1170px;
+}
+#navlinks ul{
+    margin: auto;
+    padding: 20px 0 0;
+    list-style: none;
+    text-align: right;
+}
+#navlinks ul li{
+    float: none;
+    display: inline-block;
+}
+#navlinks ul li:nth-child(1){float: left; padding-left: 85px;}
+#navlinks ul li:nth-child(2){float: left;}
+#navlinks ul li:nth-child(3){float: left;}
+#navlinks ul li:nth-child(4){float: left;}
+
+#navlinks ul li a{
+    text-decoration: none;
+    display: block;
+    font-weight: 900;
+    color: brown;
+    font-size: 16px;
+    padding: 5px 10px;
+    justify-content: space-between;
+    text-align: justify;
+    word-spacing: 5px;
+}
+#logo{
+    position: absolute;
+    left: 50%;
+    height: 90px
+}
+#slidersec{
+    text-align: start;
+    padding-bottom: 110px;
+    padding-right: 200px;
+    
+}
+#slidersec h1{
+    font-weight: 900;
+    font-size: 50px;
+    padding-bottom: 10px;
+}
+#slidersec p{
+    padding-bottom: 10px;
+}
+#slidebutton{
+    background-color: brown;
+    color: white;
+    border-color: brown;
+    font-weight: 600;
+    width: 150px;
+    height: 45px;
+    border-style: none;
+    border-style: solid;
+}
+#sh-img img{
+    height: 600px;
+}
+.s-1{
+    display: flex;
+    background-color: rgb(249, 241, 227);
+}
+#sh-p{
+    align-items: center;
+    padding: 100px;
+    padding-top: 150px;
+}
+#sh-p h1{
+    font-weight: 700;
+    font-size: 38px;
+}
+#sh-p button{
+    background-color: brown;
+    color: white;
+    border-color: brown;
+    width: 150px;
+    height: 40px;
+    font-weight: 600;
+    border-style: none;
+    border-style: solid;
+}
+.bestsaller{
+    display: flex;
+    padding-top: 20px;
+}
+#bs-1 h1{
+    font-weight: 700;
+    padding-left: 65px;
+}
+#bs-2 button{
+    background-color: brown;
+    color: white;
+    border-color: brown;
+    width: 150px;
+    height: 40px;
+    font-weight: 600;
+    font-size: 14px;
+    align-items: flex-end;
+    margin-left: 45rem;
+    border-style: none;
+    border-style: solid;
+}
+#bs-2{
+    padding-top: 10px;
+}
+#bs-3{
+    padding-left: 66px;
+    font-size: 14px;
+}
+.dish{
+    display: flex;
+    padding-left: 35px;
+    padding-top: 20px;
+}
+.dish #d-1 img{
+    width: 380px;
+    height: 85%;
+    padding-left: 35px;
+}
+#spoon{
+    display: flex;
+}
+#d-1 #spoon img{
+    height: 10px;
+    width: 45px;
+}
+.dish #d-1 h5{
+    font-size: 17px;
+    color: brown;
+    font-weight: 700;
+    padding-left: 33PX;
+    padding-top: 10PX;
+}
+#d-1 #spoon P{
+    font-size: 11px;
+    padding-left: 8px;
+}
+
+.visitus{
+    background-image: url("../resturat/images/home/home_burger-decor.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 100%;
+    padding: 10px;
+    padding-left: 87px;
+    padding-top: 50px;
+    display: flex;
+   
+}
+#vu-1 #openhr{
+    display: flex;
+}
+#vu-1 h1{
+    font-weight: 700;
+    font-size: 40px;
+}
+#vu-1 h4{
+    font-size: 15px;
+    font-weight: 700;
+}
+#vu-1 #em{
+    text-decoration: underline;
+    color: brown;
+}
+.visitus .map {
+
+    padding-left: 200px;
+    padding-top: 30px; 
+}
+.visitus .map p{
+    height: 150px;
+}
+.burger{
+    background-color: rgb(238, 237, 235);
+    
+}
+#h-info{
+    text-align: center;
+    padding-top: 65px;
+}
+#h-info h1{
+    font-size: 35px;
+    font-weight: 700;
+}
+#hig img{
+    height: 275px;
+    padding: 10px;
+}
+#h-info-img{
+    padding-left: 72px;
+}
+.sign{
+    background-image: url("../resturat/images/home/newsletter_bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.sign{
+    text-align: center;
+
+}
+#sign-written{
+    padding: 50px;
+}
+#sign-written h1{
+    font-weight: 700;
+    font-size: 28px;
+}
+#sign-written form #search{
+    border-color: brown;
+    height: 45px;
+    width: 350px;
+    
+}
+#sign-written form button{
+    background-color: brown;
+    color: white;
+    height: 45px;
+    width: 150px;
+    font-weight: 600;
+    font-size: 18px;
+    border-color: brown;
+    border-style: none;
+    border-style: solid;
+}
+#sign-written form input{
+    padding-left: 30px;
+    font-weight: 700;
+    border-color: brown;
+    border-style: none;
+    border-style: solid;
+}
+::-webkit-input-placeholder{
+    color: brown;
+}
+footer{
+    background-color: brown;
+}
+
+footer h1{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 35px;
+    font-weight: 700;
+}
+#footer-link a{
+    text-decoration: none;
+    color: white;
+    justify-content:space-evenly;
+    padding: 15px;
+}
+#footer-link{
+    padding-left: 240px;
+    padding-top: 30px;
+}
+footer h2{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 60px;
+}
+footer #social{
+    text-align: center;
+    padding-top: 30px;
+}
+footer p{
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 13px;
+}
+#about-ban h5{
+    font-weight: 700;
+    font-size: 35px;
+    letter-spacing: 1.5PX;
+}
+#about-ban p{
+    font-size: 11px;
+}
+#about-ban{
+    padding-bottom: 80px;
+}
+#ab-img img{
+    height: 550px;
+}
+.aboutp{
+    display: flex;
+    padding-left: 90px;
+    padding-top: 55px;
+}
+#ab-p h1{
+    font-weight: 700;
+}
+#ab-p{
+    padding-left: 90px;
+    padding-top: 100px;
+}
+#team-c h1{
+    font-weight: 700;
+}
+.ourteam{
+    text-align: center;
+    padding-top: 90px;
+}
+#team-c p{
+    font-size: 13px;
+    padding-top: 5px;
+}
+.ourteam{
+    background-image: url("../resturat/images/about/about_team_bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+#teamimg{
+    display: flex;
+}
+#timg img{
+    height: 380px;
+    padding: 15px;
+}
+.teamsec{
+    padding-left: 80px;
+}
+#timg h2{
+    color: brown;
+    font-weight: 700;
+    text-align:start;
+    padding-left: 12px;
+}
+#timg p{
+    text-align: start;
+    padding-left: 12px;
+}
+#receipe{
+    display: flex;
+}
+#rimg img{
+    height: 350px;
+}
+.receipesec{
+    padding-left: 80px;
+    padding-top: 30px;
+    background-image: url("../resturat/images/about/about_team_bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+#rimg h2{
+    color: brown;
+    font-weight: 800;
+    font-size: 15px;
+    padding-top: 10px;
+}
+#rimg p{
+    font-size: 13px;
+}
+#rimg p span{
+    color: brown;
+    font-weight: 700;
+}
+#rimg{
+    padding: 15px;
+}
+#rimg button{
+    background-color: brown;
+    color: white;
+    height: 45px;
+    width: 130px;
+    font-weight: 600;
+    font-size: 15px;
+    border-color: brown;
+    border-style: none;
+    border-style: solid;
+}
+#pagenum{
+    text-align: center;
+    padding: 50px;
+}
+#pagenum button{
+    background-color: white;
+    color: brown;
+    font-weight: 600;
+    font-size: 20px;
+    border-style: none;
+}
+#pagenum  #previous{
+    background-color: brown;
+    color: white;
+    border-radius: 5px;
+}
+
+#pagenum  #next{
+    background-color: brown;
+    color: white;
+    border-radius: 5px;
+}
+#fepar p{
+    text-align: center;
+    font-size: 13px;
+    padding-top: 30px;
+}
+.fesimg{
+    background-image: url("../resturat\images\function-events/functions_enquiry_bg.jpg");
+   
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+#fesimg img{
+    height: 98%;
+    width: 95%;
+    padding-left: 67px;
+    padding-top: 28px;
+}
+
+#galp h1{
+    text-align: center;
+    font-size: 38px;
+    font-weight: 700;
+}
+#fegallary{
+    padding-top: 45px;
+    text-align: center;
+    padding-top: 40px;
+}
+#galimg img{
+    height: 293px;
+    padding: 10px;
+}
+#galimg{
+    padding-left: 5px;
+}
+#fegallary button{
+    text-align: center;
+    background-color: brown;
+    color: white;
+    border-style: none;
+    border-style: solid;
+    border-color: brown;
+    text-align: center;
+    padding: 8px;
+    font-size: 15px;
+    width: 180px;
+    font-weight: 700;
+}
+#fesbtn{
+    padding-top: 30px;
+}
+.enq{
+    background-image: url("../resturat\images\function-events/functions_enquiry_bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+}
+#enqinfo{
+    text-align: center;
+    padding-top: 130px;
+    padding-bottom: 70px;
+}
+#enqinfo h1{
+    font-weight: 700;
+    font-size: 28px;
+}
+#enqinfo button{
+    text-align: center;
+    background-color: brown;
+    color: white;
+    border-style: none;
+    border-style: solid;
+    border-color: brown;
+    text-align: center;
+    padding: 8px;
+    font-size: 15px;
+    width: 180px;
+    font-weight: 700;
+}
+#news-inner{
+    padding-top: 80px;
+}
+#newsimg img{
+    height: 500px;
+}
+#newsimg{
+    padding-left: 170px;
+}
+#newsimg #social{
+    height: 70%;
+    padding-left: 10PX;
+}
+#newsbt{
+    text-align: center;
+    padding-left: 350px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    display: flex;
+}
+#newsbt button{
+    color: brown;
+    border-color: brown;
+    border-style: solid;
+    background-color: white;
+    height: 40px;
+    width: 100px;
+    margin: 15px;
+}
+#newsbt button:hover{
+    color: white;
+    background-color: brown;
+    border-style: solid;
+}
+
+#news-inner{
+    background-image: url("../resturat/images/about/about_team_bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+#newsimg h2{
+    color: brown;
+    font-size: 20PX;
+    font-weight: 700;
+    padding-top: 20PX;
+}
+#newsimg #newsp{
+    font-weight: 600;
+}
+#coninfo{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+#coninfo h1{
+    font-weight: 700;
+}
+.conus{
+    background-image: url("../resturat/images/contact-us/contact_bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+#coninfo button{
+    border-color: brown;
+    border-style: solid;
+    color: brown;
+    background-color: white;
+    width: 130px;
+    font-weight: 600;
+}
+#coninfo button:hover{
+    color: white;
+    background-color: brown;
+    cursor: pointer;
+}
+#coninfo p{
+    font-size: 12px;
+}
+#conmap{
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    padding-left: 50px;
+}
+#con1info h1{
+    color: brown;
+    font-size: 20px;
+    font-weight: 700;
+}
+#con1info p{
+    font-size: 12px;
+}
+#con1info{
+    padding-left: 50px;
+}
+#coninfomap{
+    padding-left: 130px;
+}
+#coninfomap iframe{
+    width: 700px;
+    height: 320px;
+}
+
+#conform h1{
+    color: brown;
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 100px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+form input#fname{
+    width: 33rem;
+    border-style: solid;
+    border-color: brown;
+
+}
+form input#femail{
+    width: 33rem;
+    border-style: solid;
+    border-color: brown;
+}
+form input#ftel{
+    width: 33rem;
+    border-style: solid;
+    border-color: brown;
+}
+form input#fsub{
+    width: 33rem;
+    border-style: solid;
+    border-color: brown;
+}
+form textarea#fmes{
+    width: 66.3rem;
+    border-style: solid;
+    border-color: brown;
+}
+#conform form{
+    padding-left: 100px;
+}
+#conform form{
+    padding-bottom: 20px;
+}
+#conform #fbt button{
+    color: white;
+    background-color: brown;
+    border-style: solid;
+    border-style: none;
+    border-color: brown;
+    width: 100px;
+    font-weight: 600;
+    font-size: 14px;
+}
+#conform #fbt{
+    text-align: center;
+}
+#conform #fbt button:hover{
+    color: brown;
+    background-color: white;
+    cursor: pointer;
+    border-color: brown;
+    border-style: solid;
+}
+
+/*  meadia queary start */
+
+@media(max-width: 667px){
+
+    #nav-writing{
+        text-align: center;
+        font-size: 8px;
+    }
+    #navlinks{
+        width: 350px;
+    }
+    #navlinks ul{
+        list-style: none;
+        text-align: center;
+    }
+    #navlinks ul li{
+        display: flex;
+    }
+    #navlinks ul li:nth-child(1){float: none;padding-left: 5px;}
+    #navlinks ul li:nth-child(2){float: none;}
+    #navlinks ul li:nth-child(3){float: none;}
+    #navlinks ul li:nth-child(4){float: none;}
+    
+    #logo{
+        /* position: static;
+        height: 60px;
+        padding-left: 63px; */
+        display: none;
+    }
+    /* .navbar-toggler{
+        display: block;
+    } */
+    #navlinks ul li a{
+        text-decoration: none;
+        font-weight: 900;
+        color: brown;
+        font-size: 12px;
+        word-spacing: 2px;
+        padding-left: 125px;
+    }
+    footer h1{
+        color: white;
+        text-align: center;
+        font-size: 22px;
+        padding-top: 35px;
+        font-weight: 700;
+    }
+    #footer-link a{
+        text-decoration: none;
+        color: white;
+        padding: 8px;
+        display: flex;
+    }
+    #footer-link{
+        padding-left: 0px;
+        padding-top: 1px;
+    }
+    footer h2{
+        color: white;
+        font-size: 19px;
+        font-weight: 700;
+        text-align: center;
+        padding-top: 60px;
+    }
+    footer #social{
+        text-align: center;
+        padding-top: 20px;
+    }
+    footer p{
+        color: white;
+        text-align: center;
+        padding-top: 30px;
+        font-size: 9px;
+    }
+
+    #sh-img img{
+        height: 320px;
+    }
+    .s-1{
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(249, 241, 227);
+    }
+    #sh-p{
+        align-items: center;
+        padding: 10px;
+        padding-top: 30px;
+        font-size: 9px;
+        padding-left: 35px;
+    }
+    #sh-p h1{
+        font-weight: 700;
+        font-size: 22px;
+        text-align: center;
+        padding-right: 20px;
+    }
+    #sh-p button{
+        background-color: brown;
+        color: white;
+        border-color: brown;
+        width: 150px;
+        height: 40px;
+        font-weight: 600;
+        border-style: none;
+        border-style: solid;
+    }
+
+    .bestsaller{
+        padding-top: 20px;
+        padding-right: 60px;
+    }
+    #bs-1 h1{
+        font-weight: 700;
+        font-size: 20px;
+        padding-left: 120px;
+
+    }
+    #bs-2{
+        display: none;
+    }
+    #bs-3{
+        font-size: 9px;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .dish{
+        flex-direction: column;
+        padding-top: 20px;
+        padding-left: 0;
+        align-items: center;
+        padding-right: 30px;
+    }
+    .dish #d-1 img{
+        width: 300px;
+        height: 85%;
+    }
+
+    #d-1 #spoon img{
+        height: 10px;
+        width: 45px;
+    }
+    .dish #d-1 h5{
+        font-size: 12px;
+        color: brown;
+        font-weight: 700;
+        /* padding-left: 33PX; */
+        padding-top: 10PX;
+    }
+    #d-1 #spoon P{
+        font-size: 11px;
+        /* padding-left: 8px; */
+    }
+
+    .visitus{
+        background-image: url("../resturat/images/home/home_burger-decor.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative;
+        height: 100%;
+        padding: 10px;
+        /* padding-left: 87px; */
+        padding-top: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+    .visitus .map iframe{
+        height: 220px;
+        width: 300px;
+        padding-left: 20px;
+        padding-bottom: 22px;
+    }
+    .visitus .map {
+        padding-top: 30px; 
+         padding-left: 0;
+    }
+    #sign-written form #search{
+        border-color: brown;
+        height: 30px;
+        width: 160px;
+        text-align: center;
+        font-size: 10px;
+    }
+    #sign-written form button{
+        background-color: brown;
+        color: white;
+        height: 30px;
+        width: 70px;
+        font-weight: 600;
+        font-size: 12px;
+        border-color: brown;
+        border-style: none;
+        border-style: solid;
+    }
+
+    #sign-written h1{
+        font-weight: 700;
+        font-size: 19px;
+    }
+    #sign-written p{
+        font-size: 10px;
+    }
+    #h-info h1{
+        font-size: 19px;
+    }
+    #h-info p{
+        font-size: 10px;
+    }
+    #vu-1 h1{
+        font-weight: 700;
+        font-size: 35px;
+        text-align: center;
+    }
+    #vu-1 h4{
+        font-size: 17px;
+        text-align: center;
+    }
+    #vu-1 p{
+        font-size: 14px;
+        text-align: center;
+    }
+    #openhr{
+        padding-left: 16px;
+        padding-top: 15px;
+    }
+    #h-info-img{
+        padding-left: 0;
+        align-items: center;
+        padding-left: 40px;
+    }
+    #ab-img img{
+        height: 320px;
+        padding-left: 20px;
+        padding-bottom: 0;
+    }
+    .aboutp{
+        padding-left: 0;
+        flex-direction: column;
+    }
+    #ab-p{
+        padding-left: 0;
+    }
+    #ab-p h1{
+        text-align: center;
+        font-size: 30px;
+    }
+    #ab-p p{
+        font-size: 12px;
+        align-items: center;
+        text-align: center;
+    }
+    .teamsec{
+        padding-left: 0;
+    }
+    #teamimg{
+        flex-direction: column;
+    }
+    #timg img{
+        height: 320px;
+    }
+    #timg h2{
+        text-align: center;
+    }
+    #timg p{
+        text-align: center;
+    }
+    .receipesec{
+        padding-left: 0;
+    }
+    #receipe{
+        flex-direction: column;
+    }
+    #rimg img{
+        height: 320px;
+    }
+    #fesimg img{
+        display: none;
+    }
+    #conmap{
+        flex-direction: column;
+        padding-left: 0;
+    }
+    #coninfomap iframe{
+        height: 280px;
+        width: 300px;
+    }
+    #coninfomap{
+        padding-left: 0;
+        padding-left: 35px;
+        padding-top: 20px;
+    }
+    #coninfomap p{
+        padding-left: 0;
+    }
+    #con1info h1{
+        font-size: 20px;
+        padding-left: 0;
+    }
+    #con1info p{
+        font-size: 10px;
+        text-align: center;
+    }
+    #conform{
+        padding-left: 0;
+    }
+    #conform form{
+        padding-left: 0;
+        padding-left: 27px;
+    }
+    form input#fname{
+        width: 150px;
+        text-align: center;
+        font-size: 15px;
+    }
+    form input#femail{
+        width: 150px;
+        text-align: center;
+        font-size: 15px;
+    }
+    form input#ftel{
+        width: 150px;
+        text-align: center;
+        font-size: 15px;
+    }
+    form input#fsub{
+        width: 150px;
+        text-align: center;
+        font-size: 15px;
+    }
+    form textarea#fmes{
+        width: 300px;
+        font-size: 15px;
+    }
+    #conform h1{
+        font-size: 25px;
+        padding-left: 0;
+        padding-left: 60px;
+    }
+    #conform #fbt button{
+        width: 120px;
+        height: 35px;
+    } 
+    #news-inner{
+        flex-direction: column;
+        padding-left: 0;
+    } 
+    #newsimg{
+        padding-left: 0;
+        align-items: center;
+    } 
+    #newsimg img{
+        height: 250px;
+        width: 350px;
+    } 
+    #newsimg p{
+        font-size: 11px;
+    }
+    #newsp img{
+        height: 15px;
+        width: 17px;
+    }
+    #newsimg h2{
+        font-size: 16px;
+        text-align: center;
+    }
+    #newsimg button{
+        height: 30px;
+        width: 60px;
+        font-size: 13px;
+        font-weight: 600;
+        display: flex;
+        display: none;
+    }
+    #logo-t{
+        height: 50px;
+    }
+    #slidersec{
+        text-align: center;
+        margin-bottom: 0;
+        margin-right: 0;
+        padding-bottom: 10px;
+    }
+    #slidersec button{
+        height: 20px;
+        width: 65px;
+        font-size: 7px;
+    }
+    #slidersec h1{
+        font-size: 7px;
+        padding: 0;
+    }
+    #slidersec p{
+        font-size: 3.5px;
+        padding: 0;
+    }
+    #about-ban{
+        margin: 0;
+        padding: 0;
+    }
+    
+
+
+
+    
+
+    
+}
+    
+
+/*  meadia quary end */
+
+
+
+
+
+
+
+
+
+
